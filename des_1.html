@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+    <body>
+            <div class="nav-bar">
+                <div class="nav-bar-container">
+                    <div class="nav-bar-list">
+                        <ul>
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                    <div class="main-content-hello">
+                        <p>Hello World</p>
+                    </div>
+                    <div class="main-content-picture">
+                    </div>
+                    <div class="main-content-text">
+                        <div class="main-content-middle">
+                        <div  class="main-text">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,  
+                            </p>
+                        </div>
+                        <div class="main-line">
+
+                        </div>
+                        <div class="main-button">
+                            <button class="button">Click Me</button>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+            <div class="second-content">
+                <div class="second-content-container">
+                    <div class="second-content-container-content">
+                        <div class="second-content-list">
+                            <div class="second-content-list-1">
+                                <p>HTML</p>
+                            </div>
+                            <div class="second-content-list-2">
+                                <p>CSS</p>
+                            </div>
+                            <div class="second-content-list-3">
+                                <p>JS</p>
+                            </div>
+                        </div>
+                        <div class="second-content-data">
+                            <p id="check">Hello HTML</p>
+                            <div  class="main-text-2-1">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="third-content">
+                <div class="third-content-container">
+                    <div class="main-line-2">
+
+                    </div>
+                    <div class="third-content-div">
+                        <div class="third-content-div-left">
+                            <div class="third-content-div-left-text">
+                                <h1>HELLO WORLD!</h1>
+                            </div>
+                            <div class="rest">
+                            <div  class="main-text-2">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,  
+                                </p>
+                            </div>
+                            <div class="main-button-2">
+                                <button class="button">Click Me</button>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="third-content-div-right">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </body>
+    <script>
+        $(document).ready(function(){
+            $(".second-content-list-1").click(function(){
+                $("#check").text("Hello html!");
+            });
+            $(".second-content-list-2").click(function(){
+                $("#check").text("Hello CSS!");
+            });
+            $(".second-content-list-3").click(function(){
+                $("#check").text("Hello JS!");
+            });
+            
+        });
+    </script>
+</html>

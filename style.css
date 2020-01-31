@@ -1,0 +1,241 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav-bar-container {
+    max-width: 1200px;
+}
+
+.nav-bar {
+    background-color: rgb(11, 14, 194);
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+
+.nav-bar ul{
+    display: inline-flex;
+    float: right;
+    list-style: none;
+    margin-right: 25px;
+    color: white;
+}
+
+.nav-bar ul li {
+    margin-right: 43px;
+}
+
+.main-content{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+
+
+.main-content-picture{
+    background-image: url("a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.main-content-text{
+    background-color: #badde8;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .main-line{
+      height: 95px;
+      width: 3px;
+      background-color: coral;
+      margin: 0 auto;
+  }
+
+  .main-content-middle{
+      margin: 0 auto;
+      height: fit-content;
+      padding-top: 183px;
+      width: 50%;
+  }
+
+
+    .main-button{
+        margin-left: 111px;
+        margin-top: 25px;
+    }
+  .main-text{
+      text-align: center;
+  }
+
+  .main-content-hello{
+      position: absolute;
+      left: 37%;
+  }
+
+    .main-content-hello p{
+        font-size: 75px;
+    }
+
+    .second-content{
+        position: relative;
+        width: 100%;
+    }
+
+    .second-content-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 385px;
+    }
+
+    .second-content-container-content{
+        width: 71%;
+    margin: 25 auto;
+    background-color: #a2cbec;
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    padding: 25px;
+    }
+
+    .second-content-list{
+        width: 25%;
+        float: left;
+        height: 100%;
+        margin-top: 45px;
+    }
+
+    .second-content-list p{
+        margin-top: 0px;
+        padding-top: 41px;
+        color: white;
+        font-size: 25px;
+    }
+
+    .second-content-list-1{
+        background-color: darkblue;
+        height: 101px;
+    }
+
+    .second-content-list-2{
+        background-color: rgb(133, 133, 177);
+        height: 101px;
+    }
+
+    .second-content-list-3{
+        background-color: rgb(62, 62, 68);
+        height: 101px;
+    }
+
+    .second-content-data{
+        float: right;
+        color: rgb(7, 7, 7);
+        width: 75%;
+        background-image: url("a.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 303px;
+        margin-top: 44px;
+        font-size: 75px;
+    }
+
+    .third-content{
+        width: 100%;
+        height: 400px;
+        margin-top: 125px;
+        position: relative;
+        background-image: url("b.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .third-content-container{
+        max-width: 1200px;
+    }
+
+    .third-content-div{
+        background-color: #a2cbec;
+        height: 416px;
+        position: absolute;
+        width: 67%;
+        top: -37px;
+        left: 225px;
+    }
+
+    .third-content-div-left{
+        height: 100px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .rest{
+        width: 33%;
+        margin-top: 128px;
+        margin-left: 61px;
+    }
+
+   .main-button-2{
+    margin-left: 51px;
+    margin-top: 58px;
+   }
+
+   .main-text-2 p{
+        overflow-wrap: break-word;
+        font-size: 10px;
+   }
+
+    .third-content-div-left p{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .third-content-div-left h1{
+        position: absolute;
+        margin-left: 109px;
+        font-size: 55px;
+    }
+
+    .third-content-div-right{
+        float: right;
+        width: 415px;
+        height: 297px;
+        background-color: white;
+        margin-right: 76px;
+        margin-top: 55px;
+    }
+    .main-text-2-1{
+        color: white;
+        font-size: 15px;
+    }
+    .main-line-2{
+        position: absolute;
+        top: 65%;
+        left: 36%;
+        height: 3px;
+        z-index: 1;
+        padding-right: 95px;
+      width: 95px;
+      background-color: rgb(8, 8, 8);
+      margin: 0 auto;
+    }
